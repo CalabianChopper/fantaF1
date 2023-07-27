@@ -107,19 +107,19 @@ def confirm_all():
         if el:
             punteggi[el] += 6
             
-    # el = q_data[0]
-    # if el:
-    #     punteggi[el] += 4
+    el = q_data[0]
+    if el:
+        punteggi[el] += 4
         
-    # for i in range(1, 11):
-    #     el = q_data[i]
-    #     if el:
-    #         punteggi[el] += 2
+    for i in range(1, 11):
+        el = q_data[i]
+        if el:
+            punteggi[el] += 2
             
-    # for i in range(11, 16):
-    #     el = q_data[i]
-    #     if el:
-    #         punteggi[el] += 1
+    for i in range(11, 16):
+        el = q_data[i]
+        if el:
+            punteggi[el] += 1
             
     # for i in range(0, 10):
     #     if i == 0:
